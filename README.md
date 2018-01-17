@@ -1,6 +1,7 @@
 ﻿# Micro Persian Fonts
 All Persian Fonts For Web
 <br /><br />
+<a href="example.html">Fonts Demo</a>
 آماده سازی فونت های فارسی رایج جهت نمایش در وب به همراه فایل های استایل شیت
 بیش از 100 فونت که از سراسر وب جمع آوری شده اند و آماده استفاده در پروژه های تحت وب می باشند.
 <br /><br /><br />
