@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'micro-Tanha';
+    src: url('../fonts/TanhaFonts/Tanha.eot');
+    src: url('../fonts/TanhaFonts/Tanha.eot?#iefix') format('embedded-opentype'), url('../fonts/TanhaFonts/Tanha.woff') format('woff'), url('../fonts/TanhaFonts/Tanha.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'micro-Tanha-FD';
+    src: url('../fonts/TanhaFonts/Tanha-FD.eot');
+    src: url('../fonts/TanhaFonts/Tanha-FD.eot?#iefix') format('embedded-opentype'), url('../fonts/TanhaFonts/Tanha-FD.woff') format('woff'), url('../fonts/TanhaFonts/Tanha-FD.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'micro-Tanha-FD-WOL';
+    src: url('../fonts/TanhaFonts/Tanha-FD-WOL.eot');
+    src: url('../fonts/TanhaFonts/Tanha-FD-WOL.eot?#iefix') format('embedded-opentype'), url('../fonts/TanhaFonts/Tanha-FD-WOL.woff') format('woff'), url('../fonts/TanhaFonts/Tanha-FD-WOL.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'micro-Tanha-WOL';
+    src: url('../fonts/TanhaFonts/Tanha-WOL.eot');
+    src: url('../fonts/TanhaFonts/Tanha-WOL.eot?#iefix') format('embedded-opentype'), url('../fonts/TanhaFonts/Tanha-WOL.woff') format('woff'), url('../fonts/TanhaFonts/Tanha-WOL.ttf') format('truetype');
+    font-weight: normal;
+}

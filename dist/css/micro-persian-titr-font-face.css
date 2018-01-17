@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family: 'micro-Titr';
+    src: url('../fonts/TitrFonts/titr.eot');
+    src: url('../fonts/TitrFonts/titr.eot?#iefix') format('embedded-opentype'), url('../fonts/TitrFonts/titr.woff') format('woff'), url('../fonts/TitrFonts/titr.ttf') format('truetype');
+    font-weight: normal;
+}

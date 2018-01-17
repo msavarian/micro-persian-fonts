@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'micro-Gandom';
+    src: url('../fonts/GandomFonts/Gandom.eot');
+    src: url('../fonts/GandomFonts/Gandom.eot?#iefix') format('embedded-opentype'), url('../fonts/GandomFonts/Gandom.woff') format('woff'), url('../fonts/GandomFonts/Gandom.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'micro-Gandom-FD';
+    src: url('../fonts/GandomFonts/Gandom-FD.eot');
+    src: url('../fonts/GandomFonts/Gandom-FD.eot?#iefix') format('embedded-opentype'), url('../fonts/GandomFonts/Gandom-FD.woff') format('woff'), url('../fonts/GandomFonts/Gandom-FD.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'micro-Gandom-FD-WOL';
+    src: url('../fonts/GandomFonts/Gandom-FD-WOL.eot');
+    src: url('../fonts/GandomFonts/Gandom-FD-WOL.eot?#iefix') format('embedded-opentype'), url('../fonts/GandomFonts/Gandom-FD-WOL.woff') format('woff'), url('../fonts/GandomFonts/Gandom-FD-WOL.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'micro-Gandom-WOL';
+    src: url('../fonts/GandomFonts/Gandom-WOL.eot');
+    src: url('../fonts/GandomFonts/Gandom-WOL.eot?#iefix') format('embedded-opentype'), url('../fonts/GandomFonts/Gandom-WOL.woff') format('woff'), url('../fonts/GandomFonts/Gandom-WOL.ttf') format('truetype');
+    font-weight: normal;
+}

@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: 'micro-Mitra';
+    src: url('../fonts/MitraFonts/mitra.eot');
+    src: url('../fonts/MitraFonts/mitra.eot?#iefix') format('embedded-opentype'), url('../fonts/MitraFonts/mitra.woff') format('woff'), url('../fonts/MitraFonts/mitra.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'micro-MitraBold';
+    src: url('../fonts/MitraFonts/mitra-bold.eot');
+    src: url('../fonts/MitraFonts/mitra-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/MitraFonts/mitra-bold.woff') format('woff'), url('../fonts/MitraFonts/mitra-bold.ttf') format('truetype');
+    font-weight: normal;
+}

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'micro-Samim';
+    src: url('../fonts/SamimFonts/Samim.eot');
+    src: url('../fonts/SamimFonts/Samim.eot?#iefix') format('embedded-opentype'), url('../fonts/SamimFonts/Samim.woff') format('woff'), url('../fonts/SamimFonts/Samim.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'micro-Samim-FD';
+    src: url('../fonts/SamimFonts/Samim-FD.eot');
+    src: url('../fonts/SamimFonts/Samim-FD.eot?#iefix') format('embedded-opentype'), url('../fonts/SamimFonts/Samim-FD.woff') format('woff'), url('../fonts/SamimFonts/Samim-FD.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'micro-Samim-FD-WOL';
+    src: url('../fonts/SamimFonts/Samim-FD-WOL.eot');
+    src: url('../fonts/SamimFonts/Samim-FD-WOL.eot?#iefix') format('embedded-opentype'), url('../fonts/SamimFonts/Samim-FD-WOL.woff') format('woff'), url('../fonts/SamimFonts/Samim-FD-WOL.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'micro-Samim-WOL';
+    src: url('../fonts/SamimFonts/Samim-WOL.eot');
+    src: url('../fonts/SamimFonts/Samim-WOL.eot?#iefix') format('embedded-opentype'), url('../fonts/SamimFonts/Samim-WOL.woff') format('woff'), url('../fonts/SamimFonts/Samim-WOL.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'micro-SamimBold';
+    src: url('../fonts/SamimFonts/Samim-Bold.eot');
+    src: url('../fonts/SamimFonts/Samim-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/SamimFonts/Samim-Bold.woff') format('woff'), url('../fonts/SamimFonts/Samim-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'micro-SamimBold-FD';
+    src: url('../fonts/SamimFonts/Samim-Bold-FD.eot');
+    src: url('../fonts/SamimFonts/Samim-Bold-FD.eot?#iefix') format('embedded-opentype'), url('../fonts/SamimFonts/Samim-Bold-FD.woff') format('woff'), url('../fonts/SamimFonts/Samim-Bold-FD.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'micro-SamimBold-FD-WOL';
+    src: url('../fonts/SamimFonts/Samim-Bold-FD-WOL.eot');
+    src: url('../fonts/SamimFonts/Samim-Bold-FD-WOL.eot?#iefix') format('embedded-opentype'), url('../fonts/SamimFonts/Samim-Bold-FD-WOL.woff') format('woff'), url('../fonts/SamimFonts/Samim-Bold-FD-WOL.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'micro-SamimBold-WOL';
+    src: url('../fonts/SamimFonts/Samim-Bold-WOL.eot');
+    src: url('../fonts/SamimFonts/Samim-Bold-WOL.eot?#iefix') format('embedded-opentype'), url('../fonts/SamimFonts/Samim-Bold-WOL.woff') format('woff'), url('../fonts/SamimFonts/Samim-Bold-WOL.ttf') format('truetype');
+    font-weight: bold;
+}
