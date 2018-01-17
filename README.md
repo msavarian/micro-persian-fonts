@@ -3,7 +3,7 @@ All Persian Fonts For Web
 <br /><br />
 <a href="https://sav68.github.io/MicroPersianFonts/example.html">Fonts Demo Page</a>
 <br /><br />
-<p style="color:red;">در دست تکمیل</p>
+<p style="color:red; font-size:25pt;">در دست تکمیل....</p>
 <br /><br />
 آماده سازی فونت های فارسی رایج جهت نمایش در وب به همراه فایل های استایل شیت
 بیش از 100 فونت که از سراسر وب جمع آوری شده اند و آماده استفاده در پروژه های تحت وب می باشند.
