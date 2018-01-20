@@ -23,7 +23,8 @@
         }
 
         .column {
-            width: 50%;
+            width: 33%;
+            float:right;
         }
 
             .column .box-demo {
@@ -37,6 +38,7 @@
 
                 .column .box-demo > P {
                     font-weight: bold;
+                    color:white;
                 }
 
                 .column .box-demo .font-box {
@@ -72,15 +74,33 @@
                         padding: 10px;
                     }
     </style>
+    <script type="text/javascript">
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+        function setRandomColor() {
+            var boxes = document.getElementsByClassName("box-demo");
+            for (i = 0; i < boxes.length; i++) {
+                boxes[i].style.backgroundColor = getRandomColor();
+            }
+        }
+        window.onload = setRandomColor;
+    </script>
 </head>
 <body>
     <h1>Micro Persian Fonts!</h1>
     <br />
-    <div class="column" style="float:right;">
+    <div class="column" style="">
         <div class="box-demo">
-            <p>فونت های بدر</p>
+            <p>فونت های بی</p>
             <div class="font-box">
-                <p class="font-name">Font name: B Badr</p>
+                <p class="font-name">font name: B Badr</p>
+                <p class="font-name">font-family: <b>micro-BBadr</b></p>
                 <h1 style="font-family:micro-BBadr">خلیج همیشه پارس</h1>
                 <h2 style="font-family:micro-BBadr">خلیج همیشه پارس</h2>
                 <h3 style="font-family:micro-BBadr">خلیج همیشه پارس</h3>
@@ -89,21 +109,403 @@
                 <p style="font-family:micro-BBadr" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
             </div>
             <div class="font-box">
-                <p class="font-name">Font name: B Badr</p>
-                <h1 style="font-family:micro-BBadr">خلیج همیشه پارس</h1>
-                <h2 style="font-family:micro-BBadr">خلیج همیشه پارس</h2>
-                <h3 style="font-family:micro-BBadr">خلیج همیشه پارس</h3>
-                <h4 style="font-family:micro-BBadr">خلیج همیشه پارس</h4>
-                <p style="font-family:micro-BBadr" class="font-demo">ز گهواره تا گور دانش بجوی</p>
-                <p style="font-family:micro-BBadr" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+                <p class="font-name">font name: B Baran</p>
+                <p class="font-name">font-family: <b>micro-BBaran</b></p>
+                <h1 style="font-family:micro-BBaran">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-BBaran">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-BBaran">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-BBaran">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-BBaran" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-BBaran" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: B </p>
+                <p class="font-name">font-family: <b>micro-</b></p>
+                <h1 style="font-family:micro-">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
             </div>
         </div>
     </div>
-    <div class="column" style="float:left;">
+    <div class="column" style="">
         <div class="box-demo">
             <p>فونت های گندم</p>
             <div class="font-box">
-                <p class="font-name">Font name: Gandom</p>
+                <p class="font-name">font name: Gandom</p>
+                <p class="font-name">font-family: <b>micro-Gandom</b></p>
                 <h1 style="font-family:micro-Gandom">خلیج همیشه پارس</h1>
                 <h2 style="font-family:micro-Gandom">خلیج همیشه پارس</h2>
                 <h3 style="font-family:micro-Gandom">خلیج همیشه پارس</h3>
@@ -112,7 +514,8 @@
                 <p style="font-family:micro-Gandom" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
             </div>
             <div class="font-box">
-                <p class="font-name">Font name: Gandom-FD</p>
+                <p class="font-name">font name: Gandom-FD</p>
+                <p class="font-name">font-family: <b>micro-Gandom-FD</b></p>
                 <h1 style="font-family:micro-Gandom-FD">خلیج همیشه پارس</h1>
                 <h2 style="font-family:micro-Gandom-FD">خلیج همیشه پارس</h2>
                 <h3 style="font-family:micro-Gandom-FD">خلیج همیشه پارس</h3>
@@ -121,7 +524,8 @@
                 <p style="font-family:micro-Gandom-FD" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
             </div>
             <div class="font-box">
-                <p class="font-name">Font name: Gandom-WOL</p>
+                <p class="font-name">font name: Gandom-WOL</p>
+                <p class="font-name">font-family: <b>micro-Gandom-WOL</b></p>
                 <h1 style="font-family:micro-Gandom-WOL">خلیج همیشه پارس</h1>
                 <h2 style="font-family:micro-Gandom-WOL">خلیج همیشه پارس</h2>
                 <h3 style="font-family:micro-Gandom-WOL">خلیج همیشه پارس</h3>
@@ -130,7 +534,8 @@
                 <p style="font-family:micro-Gandom-WOL" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
             </div>
             <div class="font-box">
-                <p class="font-name">Font name: Gandom-FD-WOL</p>
+                <p class="font-name">font name: Gandom-FD-WOL</p>
+                <p class="font-name">font-family: <b>micro-Gandom-FD-WOL</b></p>
                 <h1 style="font-family:micro-Gandom-FD-WOL">خلیج همیشه پارس</h1>
                 <h2 style="font-family:micro-Gandom-FD-WOL">خلیج همیشه پارس</h2>
                 <h3 style="font-family:micro-Gandom-FD-WOL">خلیج همیشه پارس</h3>
@@ -142,7 +547,8 @@
         <div class="box-demo">
             <p>فونت های میترا</p>
             <div class="font-box">
-                <p class="font-name">Font name: Mitra</p>
+                <p class="font-name">font name: Mitra</p>
+                <p class="font-name">font-family: <b>micro-Mitra</b></p>
                 <h1 style="font-family:micro-Mitra">خلیج همیشه پارس</h1>
                 <h2 style="font-family:micro-Mitra">خلیج همیشه پارس</h2>
                 <h3 style="font-family:micro-Mitra">خلیج همیشه پارس</h3>
@@ -151,7 +557,8 @@
                 <p style="font-family:micro-Mitra" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
             </div>
             <div class="font-box">
-                <p class="font-name">Font name: Mitra-Bold</p>
+                <p class="font-name">font name: Mitra-Bold</p>
+                <p class="font-name">font-family: <b>micro-Mitra-Bold</b></p>
                 <h1 style="font-family:micro-MitraBold">خلیج همیشه پارس</h1>
                 <h2 style="font-family:micro-MitraBold">خلیج همیشه پارس</h2>
                 <h3 style="font-family:micro-MitraBold">خلیج همیشه پارس</h3>
@@ -163,7 +570,8 @@
         <div class="box-demo">
             <p>فونت های ساحل</p>
             <div class="font-box">
-                <p class="font-name">Font name: Sahel</p>
+                <p class="font-name">font name: Sahel</p>
+                <p class="font-name">font-family: <b>micro-Sahel</b></p>
                 <h1 style="font-family:micro-Sahel">خلیج همیشه پارس</h1>
                 <h2 style="font-family:micro-Sahel">خلیج همیشه پارس</h2>
                 <h3 style="font-family:micro-Sahel">خلیج همیشه پارس</h3>
@@ -172,13 +580,448 @@
                 <p style="font-family:micro-Sahel" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
             </div>
             <div class="font-box">
-                <p class="font-name">Font name: Sahel-Bold</p>
+                <p class="font-name">font name: Sahel-FD</p>
+                <p class="font-name">font-family: <b>micro-Sahel-FD</b></p>
+                <h1 style="font-family:micro-Sahel-FD">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Sahel-FD">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Sahel-FD">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Sahel-FD">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Sahel-FD" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Sahel-FD" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Sahel-FD-WOL</p>
+                <p class="font-name">font-family: <b>micro-Sahel-FD-WOL</b></p>
+                <h1 style="font-family:micro-Sahel-FD-WOL">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Sahel-FD-WOL">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Sahel-FD-WOL">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Sahel-FD-WOL">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Sahel-FD-WOL" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Sahel-FD-WOL" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Sahel-WOL</p>
+                <p class="font-name">font-family: <b>micro-Sahel-WOL</b></p>
+                <h1 style="font-family:micro-Sahel-WOL">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Sahel-WOL">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Sahel-WOL">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Sahel-WOL">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Sahel-WOL" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Sahel-WOL" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: SahelBold</p>
+                <p class="font-name">font-family: <b>micro-SahelBold</b></p>
                 <h1 style="font-family:micro-SahelBold">خلیج همیشه پارس</h1>
                 <h2 style="font-family:micro-SahelBold">خلیج همیشه پارس</h2>
                 <h3 style="font-family:micro-SahelBold">خلیج همیشه پارس</h3>
                 <h4 style="font-family:micro-SahelBold">خلیج همیشه پارس</h4>
                 <p style="font-family:micro-SahelBold" class="font-demo">ز گهواره تا گور دانش بجوی</p>
                 <p style="font-family:micro-SahelBold" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: SahelBold-FD</p>
+                <p class="font-name">font-family: <b>micro-SahelBold-FD</b></p>
+                <h1 style="font-family:micro-SahelBold-FD">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-SahelBold-FD">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-SahelBold-FD">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-SahelBold-FD">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-SahelBold-FD" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-SahelBold-FD" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: SahelBold-FD-WOL</p>
+                <p class="font-name">font-family: <b>micro-SahelBold-FD-WOL</b></p>
+                <h1 style="font-family:micro-SahelBold-FD-WOL">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-SahelBold-FD-WOL">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-SahelBold-FD-WOL">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-SahelBold-FD-WOL">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-SahelBold-FD-WOL" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-SahelBold-FD-WOL" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: SahelBold-WOL</p>
+                <p class="font-name">font-family: <b>micro-SahelBold-WOL</b></p>
+                <h1 style="font-family:micro-SahelBold-WOL">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-SahelBold-WOL">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-SahelBold-WOL">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-SahelBold-WOL">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-SahelBold-WOL" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-SahelBold-WOL" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: SahelBlack</p>
+                <p class="font-name">font-family: <b>micro-SahelBlack</b></p>
+                <h1 style="font-family:micro-SahelBlack">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-SahelBlack">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-SahelBlack">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-SahelBlack">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-SahelBlack" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-SahelBlack" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: SahelBlack-FD</p>
+                <p class="font-name">font-family: <b>micro-SahelBlack-FD</b></p>
+                <h1 style="font-family:micro-SahelBlack-FD">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-SahelBlack-FD">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-SahelBlack-FD">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-SahelBlack-FD">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-SahelBlack-FD" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-SahelBlack-FD" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: SahelBlack-FD-WOL</p>
+                <p class="font-name">font-family: <b>micro-SahelBlack-FD-WOL</b></p>
+                <h1 style="font-family:micro-SahelBlack-FD-WOL">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-SahelBlack-FD-WOL">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-SahelBlack-FD-WOL">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-SahelBlack-FD-WOL">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-SahelBlack-FD-WOL" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-SahelBlack-FD-WOL" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: SahelBlack-WOL</p>
+                <p class="font-name">font-family: <b>micro-SahelBlack-WOL</b></p>
+                <h1 style="font-family:micro-SahelBlack-WOL">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-SahelBlack-WOL">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-SahelBlack-WOL">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-SahelBlack-WOL">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-SahelBlack-WOL" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-SahelBlack-WOL" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+        </div>
+        <div class="box-demo">
+            <p>فونت های سمیم</p>
+            <div class="font-box">
+                <p class="font-name">font name: Samim</p>
+                <p class="font-name">font-family: <b>micro-Samim</b></p>
+                <h1 style="font-family:micro-Samim">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Samim">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Samim">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Samim">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Samim" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Samim" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Samim-FD</p>
+                <p class="font-name">font-family: <b>micro-Samim-FD</b></p>
+                <h1 style="font-family:micro-Samim-FD">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Samim-FD">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Samim-FD">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Samim-FD">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Samim-FD" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Samim-FD" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Samim-FD-WOL</p>
+                <p class="font-name">font-family: <b>micro-Samim-FD-WOL</b></p>
+                <h1 style="font-family:micro-Samim-FD-WOL">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Samim-FD-WOL">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Samim-FD-WOL">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Samim-FD-WOL">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Samim-FD-WOL" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Samim-FD-WOL" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Samim-WOL</p>
+                <p class="font-name">font-family: <b>micro-Samim-WOL</b></p>
+                <h1 style="font-family:micro-Samim-WOL">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Samim-WOL">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Samim-WOL">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Samim-WOL">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Samim-WOL" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Samim-WOL" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: SamimBold</p>
+                <p class="font-name">font-family: <b>micro-SamimBold</b></p>
+                <h1 style="font-family:micro-SamimBold">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-SamimBold">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-SamimBold">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-SamimBold">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-SamimBold" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-SamimBold" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: SamimBold-FD</p>
+                <p class="font-name">font-family: <b>micro-SamimBold-FD</b></p>
+                <h1 style="font-family:micro-SamimBold-FD">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-SamimBold-FD">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-SamimBold-FD">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-SamimBold-FD">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-SamimBold-FD" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-SamimBold-FD" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: SamimBold-FD-WOL</p>
+                <p class="font-name">font-family: <b>micro-SamimBold-FD-WOL</b></p>
+                <h1 style="font-family:micro-SamimBold-FD-WOL">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-SamimBold-FD-WOL">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-SamimBold-FD-WOL">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-SamimBold-FD-WOL">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-SamimBold-FD-WOL" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-SamimBold-FD-WOL" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: SamimBold-WOL</p>
+                <p class="font-name">font-family: <b>micro-SamimBold-WOL</b></p>
+                <h1 style="font-family:micro-SamimBold-WOL">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-SamimBold-WOL">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-SamimBold-WOL">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-SamimBold-WOL">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-SamimBold-WOL" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-SamimBold-WOL" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+        </div>
+        <div class="box-demo">
+            <p>فونت های شبنم</p>
+            <div class="font-box">
+                <p class="font-name">font name: Shabnam</p>
+                <p class="font-name">font-family: <b>micro-Shabnam</b></p>
+                <h1 style="font-family:micro-Shabnam">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Shabnam">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Shabnam">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Shabnam">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Shabnam" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Shabnam" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Shabnam</p>
+                <p class="font-name">font-family: <b>micro-Shabnam</b></p>
+                <h1 style="font-family:micro-Shabnam">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Shabnam">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Shabnam">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Shabnam">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Shabnam" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Shabnam" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Shabnam</p>
+                <p class="font-name">font-family: <b>micro-Shabnam</b></p>
+                <h1 style="font-family:micro-Shabnam">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Shabnam">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Shabnam">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Shabnam">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Shabnam" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Shabnam" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Shabnam</p>
+                <p class="font-name">font-family: <b>micro-Shabnam</b></p>
+                <h1 style="font-family:micro-Shabnam">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Shabnam">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Shabnam">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Shabnam">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Shabnam" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Shabnam" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Shabnam</p>
+                <p class="font-name">font-family: <b>micro-Shabnam</b></p>
+                <h1 style="font-family:micro-Shabnam">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Shabnam">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Shabnam">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Shabnam">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Shabnam" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Shabnam" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Shabnam</p>
+                <p class="font-name">font-family: <b>micro-Shabnam</b></p>
+                <h1 style="font-family:micro-Shabnam">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Shabnam">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Shabnam">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Shabnam">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Shabnam" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Shabnam" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Shabnam</p>
+                <p class="font-name">font-family: <b>micro-Shabnam</b></p>
+                <h1 style="font-family:micro-Shabnam">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Shabnam">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Shabnam">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Shabnam">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Shabnam" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Shabnam" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Shabnam</p>
+                <p class="font-name">font-family: <b>micro-Shabnam</b></p>
+                <h1 style="font-family:micro-Shabnam">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Shabnam">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Shabnam">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Shabnam">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Shabnam" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Shabnam" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Shabnam</p>
+                <p class="font-name">font-family: <b>micro-Shabnam</b></p>
+                <h1 style="font-family:micro-Shabnam">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Shabnam">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Shabnam">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Shabnam">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Shabnam" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Shabnam" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Shabnam</p>
+                <p class="font-name">font-family: <b>micro-Shabnam</b></p>
+                <h1 style="font-family:micro-Shabnam">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Shabnam">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Shabnam">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Shabnam">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Shabnam" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Shabnam" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Shabnam</p>
+                <p class="font-name">font-family: <b>micro-Shabnam</b></p>
+                <h1 style="font-family:micro-Shabnam">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Shabnam">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Shabnam">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Shabnam">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Shabnam" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Shabnam" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Shabnam</p>
+                <p class="font-name">font-family: <b>micro-Shabnam</b></p>
+                <h1 style="font-family:micro-Shabnam">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Shabnam">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Shabnam">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Shabnam">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Shabnam" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Shabnam" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+        </div>
+        <div class="box-demo">
+            <p>فونت های تنها</p>
+            <div class="font-box">
+                <p class="font-name">font name: Tanha</p>
+                <p class="font-name">font-family: <b>micro-Tanha</b></p>
+                <h1 style="font-family:micro-Tanha">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Tanha">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Tanha">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Tanha">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Tanha" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Tanha" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Tanha</p>
+                <p class="font-name">font-family: <b>micro-Tanha</b></p>
+                <h1 style="font-family:micro-Tanha">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Tanha">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Tanha">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Tanha">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Tanha" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Tanha" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Tanha</p>
+                <p class="font-name">font-family: <b>micro-Tanha</b></p>
+                <h1 style="font-family:micro-Tanha">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Tanha">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Tanha">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Tanha">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Tanha" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Tanha" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Tanha</p>
+                <p class="font-name">font-family: <b>micro-Tanha</b></p>
+                <h1 style="font-family:micro-Tanha">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Tanha">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Tanha">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Tanha">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Tanha" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Tanha" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+        </div>
+        <div class="box-demo">
+            <p>فونت های تیتر</p>
+            <div class="font-box">
+                <p class="font-name">font name: Titr</p>
+                <p class="font-name">font-family: <b>micro-Titr</b></p>
+                <h1 style="font-family:micro-Titr">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Titr">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Titr">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Titr">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Titr" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Titr" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+        </div>
+        <div class="box-demo">
+            <p>فونت های وزیر</p>
+            <div class="font-box">
+                <p class="font-name">font name: Vazir</p>
+                <p class="font-name">font-family: <b>micro-Vazir</b></p>
+                <h1 style="font-family:micro-Vazir">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Vazir">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Vazir">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Vazir">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Vazir" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Vazir" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Vazir</p>
+                <p class="font-name">font-family: <b>micro-Vazir</b></p>
+                <h1 style="font-family:micro-Vazir">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Vazir">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Vazir">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Vazir">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Vazir" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Vazir" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Vazir</p>
+                <p class="font-name">font-family: <b>micro-Vazir</b></p>
+                <h1 style="font-family:micro-Vazir">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Vazir">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Vazir">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Vazir">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Vazir" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Vazir" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Vazir</p>
+                <p class="font-name">font-family: <b>micro-Vazir</b></p>
+                <h1 style="font-family:micro-Vazir">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Vazir">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Vazir">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Vazir">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Vazir" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Vazir" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Vazir</p>
+                <p class="font-name">font-family: <b>micro-Vazir</b></p>
+                <h1 style="font-family:micro-Vazir">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Vazir">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Vazir">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Vazir">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Vazir" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Vazir" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+            <div class="font-box">
+                <p class="font-name">font name: Vazir</p>
+                <p class="font-name">font-family: <b>micro-Vazir</b></p>
+                <h1 style="font-family:micro-Vazir">خلیج همیشه پارس</h1>
+                <h2 style="font-family:micro-Vazir">خلیج همیشه پارس</h2>
+                <h3 style="font-family:micro-Vazir">خلیج همیشه پارس</h3>
+                <h4 style="font-family:micro-Vazir">خلیج همیشه پارس</h4>
+                <p style="font-family:micro-Vazir" class="font-demo">ز گهواره تا گور دانش بجوی</p>
+                <p style="font-family:micro-Vazir" class="font-demo-number">123456789 10  11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</p>
+            </div>
+        </div>
+    </div>
+    <div class="column" style="">
+        <div class="box-demo">
+            <p>فونت های ---</p>
+            <div class="font-box">
+            </div>
+            <div class="font-box">
             </div>
         </div>
     </div>
