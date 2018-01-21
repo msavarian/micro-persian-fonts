@@ -1,0 +1,6 @@
+
+@font-face {
+    font-family: 'micro-SegoUI';
+    src: url('../fonts/SegoUI/SegoeUI.woff') format('woff'), url('../fonts/SegoUI/SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+}
