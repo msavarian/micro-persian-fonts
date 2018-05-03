@@ -2,7 +2,7 @@
 All Persian Fonts For Web
 
 <p style="text-align:center">
-![license](https://img.shields.io/github/license/mashape/apistatus.svg)
+<img src="https://img.shields.io/github/license/mashape/apistatus.svg" />
 </p>
 
 <br /><br />
