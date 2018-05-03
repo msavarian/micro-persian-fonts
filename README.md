@@ -1,5 +1,10 @@
 ﻿# Micro Persian Fonts
 All Persian Fonts For Web
+
+<p style="text-align:center">
+![license](https://img.shields.io/github/license/mashape/apistatus.svg)
+</p>
+
 <br /><br />
 <a href="https://sav68.github.io/micro-persian-fonts/">Readme file</a>
 <br />
