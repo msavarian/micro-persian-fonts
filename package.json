@@ -1,0 +1,23 @@
+{
+    "name": "micro-persian-fonts",
+    "version": "1.0.0",
+    "description": "All Persian Fonts For Web",
+    "keywords": [
+        "persian-font",
+        "farsi-font"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sav68/micro-persian-fonts.git"
+    },
+    "author": "Mahmoud",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sav68/micro-persian-fonts/issues"
+    },
+    "homepage": "https://github.com/sav68/micro-persian-fonts#readme"
+}
