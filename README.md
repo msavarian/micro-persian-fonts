@@ -7,11 +7,6 @@ All Persian Fonts For Web
 </a>
 <a href="https://badge.fury.io/js/micro-persian-fonts"><img src="https://badge.fury.io/js/micro-persian-fonts.svg" alt="npm version" height="18"></a>
 </p>
-
-<br /><br />
-<a href="https://sav68.github.io/micro-persian-fonts/">Readme file</a>
-<br />
-<a href="https://sav68.github.io/micro-persian-fonts/example.html">Fonts demo page</a>
 <br /><br />
 <p style="color:red; font-size:25pt;">در دست تکمیل....</p>
 <br /><br />
