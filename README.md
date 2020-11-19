@@ -1,5 +1,5 @@
 ﻿# Micro Persian Fonts
-trying to gather all persian fonts For Web
+trying to gather all persian fonts for web (this repository is in develop state)
 
 <p style="text-align:center">
 <a href="https://img.shields.io/github/license/mashape/apistatus.svg">
@@ -7,9 +7,6 @@ trying to gather all persian fonts For Web
 </a>
 <a href="https://badge.fury.io/js/micro-persian-fonts"><img src="https://badge.fury.io/js/micro-persian-fonts.svg" alt="npm version" height="18"></a>
 </p>
-<br /><br />
-<p style="color:red; font-size:25pt;">this repository is in develop state</p>
-<br /><br />
 آماده سازی فونت های فارسی رایج جهت نمایش در وب به همراه فایل های استایل شیت
 بیش از 100 فونت که از سراسر وب جمع آوری شده اند و آماده استفاده در پروژه های تحت وب می باشند.
 <br /><br /><br />
