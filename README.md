@@ -10,20 +10,16 @@ trying to gather all persian fonts for web (this repository is in develop state)
 آماده سازی فونت های فارسی رایج جهت نمایش در وب به همراه فایل های استایل شیت
 بیش از 100 فونت که از سراسر وب جمع آوری شده اند و آماده استفاده در پروژه های تحت وب می باشند.
 <br /><br /><br />
---- 
+---
+
 > Fonts source
+
 ```
 https://github.com/rastikerdar/gandom-font
-<br />
 https://github.com/rastikerdar/sahel-font
-<br />
 https://github.com/rastikerdar/samim-font
-<br />
 https://github.com/rastikerdar/shabnam-font
-<br />
 https://github.com/rastikerdar/tanha-font
-<br />
 https://github.com/rastikerdar/vazir-font
-<br />
 https://github.com/rastikerdar/vazir-code-font
 ```
