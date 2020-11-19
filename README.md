@@ -6,7 +6,7 @@ trying to gather all persian fonts for web (this repository is in develop state)
 <a href="https://badge.fury.io/js/micro-persian-fonts"><img src="https://badge.fury.io/js/micro-persian-fonts.svg" alt="npm version" height="18"></a>
 </p>
 
-Gathering and preparing demo page for the common persian fonts from web, there are more than 100 font. 
+Gathering and creating a demo page for common persian fonts from the web, there are more than 100 font. 
 
 <hr />
 
