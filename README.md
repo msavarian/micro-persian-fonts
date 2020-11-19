@@ -11,8 +11,8 @@ trying to gather all persian fonts for web (this repository is in develop state)
 بیش از 100 فونت که از سراسر وب جمع آوری شده اند و آماده استفاده در پروژه های تحت وب می باشند.
 <br /><br /><br />
 --- 
-Bellow fonts are in this package too
-<br />
+> Fonts source
+```
 https://github.com/rastikerdar/gandom-font
 <br />
 https://github.com/rastikerdar/sahel-font
@@ -26,7 +26,4 @@ https://github.com/rastikerdar/tanha-font
 https://github.com/rastikerdar/vazir-font
 <br />
 https://github.com/rastikerdar/vazir-code-font
-
-
---- 
-به زودی لیست کامل منابع جهت رعایت حقوق کپی رایت معرفی خواهند شد.
+```
